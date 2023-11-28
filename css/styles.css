@@ -4,7 +4,7 @@
 @import url('about.css');
 
 * {
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     box-sizing: border-box;
     font-family: 'Montserrat', 'Secular One';
     padding: 0;
