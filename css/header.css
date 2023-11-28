@@ -1,0 +1,43 @@
+.header_container a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    list-style: none;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Secular One';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 35px;
+    
+}
+
+.header_logo{
+    margin-left: 37px;
+    margin-top: 14.5px;
+    margin-bottom: 14.5px;
+}
+.nav{
+    margin-right: 37px;
+    margin-top: 14.5px;
+    margin-bottom: 14.5px;
+}
+.header_container {
+    background-color: #006A70; 
+    height: 55px; 
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;        
+}
+
+
+.mobile-menui-button {
+    display: none; /* Необходимо добавить стили для мобильного меню, если необходимо */
+}
