@@ -1,0 +1,73 @@
+
+.features,
+.cards-container,
+.our-features,
+.goals-card,
+.train-card,
+.equipment-card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.features {
+	flex-direction: column;
+	min-height: 700px;
+	gap: 30px;
+    background-color: rgba(240, 240, 240, 1);
+}
+
+.cards-container {
+	flex-direction: row;
+	width: 90%;
+	gap: 90px;
+}
+
+.our-features,
+h2 {
+	color: #000;
+	text-align: center;
+	font-family: Montserrat;
+}
+
+.our-features {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 36.9%; /* 17.712px */
+	font-variant: all-small-caps;
+	letter-spacing: 8.16px;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 100%;
+	font-variant: small-caps;
+	letter-spacing: 4.76px;
+	max-width: 100%;
+	margin-bottom: 15px;
+	color: #006a70;
+}
+
+p {
+	color: #000;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 100%;
+	letter-spacing: -1.32px;
+	text-transform: lowercase;
+	margin-bottom: 15px;
+}
+
+
+.goals-card,
+.train-card,
+.equipment-card {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 436px;
+	gap: 10px;
+}

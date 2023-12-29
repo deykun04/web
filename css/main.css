@@ -11,13 +11,14 @@
     background-repeat: no-repeat;
     background-size:cover;
     width: auto;
-    height: 1000px;
+    min-height: 1000px;
     flex-shrink: 0;
     align-items: center;
     justify-content: center;
     padding: 60px;
+    margin-bottom: 30px;
 }
-.welcome-container > p:first-child{
+.welcome-container > p {
     color: #FFF;
     font-size: 36px;
     font-weight: 700;
@@ -26,16 +27,18 @@
     margin-top: 50px;
 }
 
-h1{
+
+h1 {
     color: #ffffff;
-    font-size: 64px;
+    font-size: 64px; 
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 50px;
 }
-h1>span{
+
+h1 > span {
     color: #006A70;
-    font-size: 64px;
+    font-size: 64px; 
     font-weight: 700;
     text-transform: uppercase;
 }
